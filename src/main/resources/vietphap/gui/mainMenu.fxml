@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="474.0" prefWidth="847.0" style="-fx-background-color: #B6EADA;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="vietphap.gui.SceneController">
+   <children>
+      <HBox prefHeight="74.0" prefWidth="847.0" style="-fx-background-color: #5B8FB9;">
+         <children>
+            <HBox prefHeight="74.0" prefWidth="82.0" style="-fx-background-color: #5B8FB9;" />
+            <HBox layoutX="10.0" layoutY="10.0" prefHeight="74.0" prefWidth="132.0" style="-fx-background-color: #5B8FB9;">
+               <children>
+                  <Button mnemonicParsing="false" prefHeight="70.0" prefWidth="135.0" style="-fx-background-color: #5B8FB9;" text="SECTOR 1" textFill="#323436" />
+               </children></HBox>
+            <HBox layoutX="88.0" layoutY="10.0" prefHeight="74.0" prefWidth="126.0" style="-fx-background-color: #5B8FB9;">
+               <children>
+                  <Button mnemonicParsing="false" prefHeight="69.0" prefWidth="126.0" style="-fx-background-color: #5B8FB9;" text="SECTOR 2" />
+               </children></HBox>
+            <HBox layoutX="271.0" layoutY="10.0" prefHeight="74.0" prefWidth="114.0" style="-fx-background-color: #5B8FB9;">
+               <children>
+                  <Button mnemonicParsing="false" prefHeight="66.0" prefWidth="114.0" style="-fx-background-color: #5B8FB9;" text="SECTOR 3" />
+               </children></HBox>
+            <HBox layoutX="453.0" layoutY="10.0" prefHeight="74.0" prefWidth="126.0" style="-fx-background-color: #5B8FB9;">
+               <children>
+                  <Button mnemonicParsing="false" prefHeight="63.0" prefWidth="126.0" style="-fx-background-color: #5B8FB9;" text="SECTOR 4" />
+               </children></HBox>
+            <HBox layoutX="460.0" layoutY="10.0" prefHeight="74.0" prefWidth="126.0" style="-fx-background-color: #5B8FB9;">
+               <children>
+                  <Button mnemonicParsing="false" prefHeight="68.0" prefWidth="127.0" style="-fx-background-color: #5B8FB9;" text="SECTOR 5" />
+               </children></HBox>
+            <HBox layoutX="587.0" layoutY="10.0" prefHeight="74.0" prefWidth="138.0" style="-fx-background-color: #5B8FB9;">
+               <children>
+                  <Button mnemonicParsing="false" prefHeight="66.0" prefWidth="138.0" style="-fx-background-color: #5B8FB9;" text="SECTOR 6" />
+               </children></HBox>
+         </children>
+      </HBox>
+      <VBox prefHeight="474.0" prefWidth="78.0" style="-fx-background-color: #5B8FB9;">
+         <children>
+            <Button mnemonicParsing="false" onAction="#switchTohelloView" prefHeight="234.0" prefWidth="78.0" style="-fx-background-color: #5B8FB9;">
+               <graphic>
+                  <ImageView fitHeight="82.0" fitWidth="60.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../../image/logo_home.png" />
+                     </image>
+                  </ImageView>
+               </graphic></Button>
+            <VBox prefHeight="225.0" prefWidth="78.0" style="-fx-background-color: #5B8FB9;">
+               <children>
+                  <Button mnemonicParsing="false" onAction="#switchTohelloView" prefHeight="259.0" prefWidth="78.0" style="-fx-background-color: #5B8FB9;">
+                     <graphic>
+                        <ImageView fitHeight="82.0" fitWidth="60.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../../../../image/logo_home.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                  </Button>
+               </children>
+            </VBox>
+         </children>
+      </VBox>
+   </children>
+</AnchorPane>
