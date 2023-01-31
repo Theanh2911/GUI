@@ -11,7 +11,6 @@ public class MainApplication extends Application {
     @Override
     public void start(Stage stage) {
         try {
-
             Parent root = FXMLLoader.load(getClass().getResource("helloView.fxml"));
             Scene scene = new Scene(root);
             stage.setScene(scene);
@@ -21,8 +20,6 @@ public class MainApplication extends Application {
             e.printStackTrace();
         }
     }
-
-
 
     public static void main(String[] args) {
         launch(args);
