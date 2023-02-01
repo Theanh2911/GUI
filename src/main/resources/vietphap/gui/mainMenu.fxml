@@ -1,105 +1,67 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?import javafx.scene.Cursor?>
 <?import javafx.scene.control.Button?>
-<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.image.Image?>
 <?import javafx.scene.image.ImageView?>
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.layout.HBox?>
-<?import javafx.scene.layout.Pane?>
 <?import javafx.scene.layout.VBox?>
-<?import javafx.scene.text.Font?>
-<?import javafx.scene.text.Text?>
 
 <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="474.0" prefWidth="847.0" style="-fx-background-color: #B6EADA;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="vietphap.gui.SceneController">
    <children>
-      <HBox layoutX="82.0" prefHeight="74.0" prefWidth="765.0" style="-fx-background-color: #5B8FB9;" AnchorPane.leftAnchor="82.0" AnchorPane.rightAnchor="0.0">
+      <HBox prefHeight="74.0" prefWidth="847.0" style="-fx-background-color: #5B8FB9;">
          <children>
-            <HBox prefHeight="74.0" prefWidth="0.0" style="-fx-background-color: #5B8FB9;" HBox.hgrow="ALWAYS" />
-            <HBox layoutX="10.0" layoutY="10.0" prefHeight="74.0" prefWidth="127.5" style="-fx-background-color: #5B8FB9;" HBox.hgrow="ALWAYS">
+            <HBox prefHeight="74.0" prefWidth="82.0" style="-fx-background-color: #5B8FB9;" />
+            <HBox layoutX="10.0" layoutY="10.0" prefHeight="74.0" prefWidth="132.0" style="-fx-background-color: #5B8FB9;">
                <children>
-                  <Button mnemonicParsing="false" onAction="#switchToSectorView" prefHeight="72.0" prefWidth="127.5" style="-fx-background-color: #5B8FB9;" text="SECTOR 1" textFill="WHITE" HBox.hgrow="ALWAYS" />
+                  <Button mnemonicParsing="false" prefHeight="70.0" prefWidth="135.0" style="-fx-background-color: #5B8FB9;" text="SECTOR 1" textFill="#323436" />
                </children></HBox>
-            <HBox layoutX="88.0" layoutY="10.0" prefHeight="74.0" prefWidth="127.5" style="-fx-background-color: #5B8FB9;" HBox.hgrow="ALWAYS">
+            <HBox layoutX="88.0" layoutY="10.0" prefHeight="74.0" prefWidth="126.0" style="-fx-background-color: #5B8FB9;">
                <children>
-                  <Button mnemonicParsing="false" prefHeight="72.0" prefWidth="127.5" style="-fx-background-color: #5B8FB9;" text="SECTOR 2" textFill="WHITE" HBox.hgrow="ALWAYS" />
+                  <Button mnemonicParsing="false" prefHeight="69.0" prefWidth="126.0" style="-fx-background-color: #5B8FB9;" text="SECTOR 2" />
                </children></HBox>
-            <HBox layoutX="271.0" layoutY="10.0" prefHeight="74.0" prefWidth="127.5" style="-fx-background-color: #5B8FB9;" HBox.hgrow="ALWAYS">
+            <HBox layoutX="271.0" layoutY="10.0" prefHeight="74.0" prefWidth="114.0" style="-fx-background-color: #5B8FB9;">
                <children>
-                  <Button mnemonicParsing="false" prefHeight="72.0" prefWidth="127.5" style="-fx-background-color: #5B8FB9;" text="SECTOR 3" textFill="WHITE" HBox.hgrow="ALWAYS" />
+                  <Button mnemonicParsing="false" prefHeight="66.0" prefWidth="114.0" style="-fx-background-color: #5B8FB9;" text="SECTOR 3" />
                </children></HBox>
-            <HBox layoutX="453.0" layoutY="10.0" prefHeight="74.0" prefWidth="127.5" style="-fx-background-color: #5B8FB9;" HBox.hgrow="ALWAYS">
+            <HBox layoutX="453.0" layoutY="10.0" prefHeight="74.0" prefWidth="126.0" style="-fx-background-color: #5B8FB9;">
                <children>
-                  <Button mnemonicParsing="false" prefHeight="72.0" prefWidth="127.5" style="-fx-background-color: #5B8FB9;" text="SECTOR 4" textFill="WHITE" HBox.hgrow="ALWAYS" />
+                  <Button mnemonicParsing="false" prefHeight="63.0" prefWidth="126.0" style="-fx-background-color: #5B8FB9;" text="SECTOR 4" />
                </children></HBox>
-            <HBox layoutX="460.0" layoutY="10.0" prefHeight="74.0" prefWidth="127.5" style="-fx-background-color: #5B8FB9;" HBox.hgrow="ALWAYS">
+            <HBox layoutX="460.0" layoutY="10.0" prefHeight="74.0" prefWidth="126.0" style="-fx-background-color: #5B8FB9;">
                <children>
-                  <Button mnemonicParsing="false" prefHeight="72.0" prefWidth="127.5" style="-fx-background-color: #5B8FB9;" text="SECTOR 5" textFill="WHITE" HBox.hgrow="ALWAYS" />
+                  <Button mnemonicParsing="false" prefHeight="68.0" prefWidth="127.0" style="-fx-background-color: #5B8FB9;" text="SECTOR 5" />
                </children></HBox>
-            <HBox layoutX="587.0" layoutY="10.0" prefHeight="74.0" prefWidth="127.5" style="-fx-background-color: #5B8FB9;" HBox.hgrow="ALWAYS">
+            <HBox layoutX="587.0" layoutY="10.0" prefHeight="74.0" prefWidth="138.0" style="-fx-background-color: #5B8FB9;">
                <children>
-                  <Button mnemonicParsing="false" prefHeight="72.0" prefWidth="127.5" style="-fx-background-color: #5B8FB9;" text="SECTOR 6" textFill="WHITE" HBox.hgrow="ALWAYS" />
+                  <Button mnemonicParsing="false" prefHeight="66.0" prefWidth="138.0" style="-fx-background-color: #5B8FB9;" text="SECTOR 6" />
                </children></HBox>
          </children>
       </HBox>
-      <VBox prefHeight="474.0" prefWidth="82.0" style="-fx-background-color: #5B8FB9;" AnchorPane.bottomAnchor="-0.39999999999997726" AnchorPane.topAnchor="0.0">
+      <VBox prefHeight="474.0" prefWidth="78.0" style="-fx-background-color: #5B8FB9;">
          <children>
-            <VBox prefHeight="233.0" prefWidth="82.0" VBox.vgrow="ALWAYS">
+            <Button mnemonicParsing="false" onAction="#switchTohelloView" prefHeight="234.0" prefWidth="78.0" style="-fx-background-color: #5B8FB9;">
+               <graphic>
+                  <ImageView fitHeight="82.0" fitWidth="60.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../../image/logo_home.png" />
+                     </image>
+                  </ImageView>
+               </graphic></Button>
+            <VBox prefHeight="225.0" prefWidth="78.0" style="-fx-background-color: #5B8FB9;">
                <children>
-                  <Button mnemonicParsing="false" onAction="#switchTohelloView" prefHeight="237.0" prefWidth="78.0" style="-fx-background-color: #5B8FB9;" text="HOME" textFill="WHITE">
-                     <font>
-                        <Font size="18.0" />
-                     </font></Button>
-               </children>
-            </VBox>
-            <VBox prefHeight="243.0" prefWidth="82.0" VBox.vgrow="ALWAYS">
-               <children>
-                  <Button mnemonicParsing="false" prefHeight="240.0" prefWidth="82.0" style="-fx-background-color: #5B8FB9;" text="BACK" textFill="#f7f7f7">
-                     <font>
-                        <Font size="18.0" />
-                     </font></Button>
+                  <Button mnemonicParsing="false" onAction="#switchTohelloView" prefHeight="259.0" prefWidth="78.0" style="-fx-background-color: #5B8FB9;">
+                     <graphic>
+                        <ImageView fitHeight="82.0" fitWidth="60.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../../../../image/logo_home.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                  </Button>
                </children>
             </VBox>
          </children>
       </VBox>
-      <ScrollPane hbarPolicy="NEVER" layoutX="82.0" layoutY="74.0" prefHeight="400.0" prefWidth="765.0" vbarPolicy="NEVER" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="82.0" AnchorPane.rightAnchor="-0.6000000000000227" AnchorPane.topAnchor="74.0">
-        <content>
-          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="9999.0" prefWidth="764.0">
-               <children>
-                  <Pane layoutX="30.0" layoutY="26.0" prefHeight="200.0" prefWidth="200.0">
-                     <children>
-                        <ImageView fitHeight="151.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true" />
-                        <Text layoutX="64.0" layoutY="164.0" strokeType="OUTSIDE" strokeWidth="0.0" text="article header" />
-                        <Text layoutX="66.0" layoutY="80.0" strokeType="OUTSIDE" strokeWidth="0.0" text="article image" />
-                     </children>
-                  </Pane>
-                  <Pane layoutX="282.0" layoutY="26.0" prefHeight="200.0" prefWidth="200.0">
-                     <children>
-                        <ImageView fitHeight="151.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
-                           <cursor>
-                              <Cursor fx:constant="NONE" />
-                           </cursor></ImageView>
-                        <Text layoutX="64.0" layoutY="164.0" strokeType="OUTSIDE" strokeWidth="0.0" text="article header" />
-                        <Text layoutX="66.0" layoutY="80.0" strokeType="OUTSIDE" strokeWidth="0.0" text="article image" />
-                     </children>
-                  </Pane>
-                  <Pane layoutX="538.0" layoutY="26.0" prefHeight="200.0" prefWidth="200.0">
-                     <children>
-                        <ImageView fitHeight="151.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true" />
-                        <Text layoutX="64.0" layoutY="164.0" strokeType="OUTSIDE" strokeWidth="0.0" text="article header" />
-                        <Text layoutX="66.0" layoutY="80.0" strokeType="OUTSIDE" strokeWidth="0.0" text="article image" />
-                     </children>
-                  </Pane>
-                  <Pane layoutX="30.0" layoutY="266.0" prefHeight="200.0" prefWidth="200.0">
-                     <children>
-                        <ImageView fitHeight="151.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true" />
-                        <Text layoutX="64.0" layoutY="164.0" strokeType="OUTSIDE" strokeWidth="0.0" text="article header" />
-                        <Text layoutX="66.0" layoutY="80.0" strokeType="OUTSIDE" strokeWidth="0.0" text="article image" />
-                     </children>
-                  </Pane>
-               </children>
-            </AnchorPane>
-        </content>
-      </ScrollPane>
    </children>
 </AnchorPane>
